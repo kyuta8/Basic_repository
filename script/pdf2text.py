@@ -1,29 +1,75 @@
+# ターミナルで実行する場合、
+# python pdf2text.py < ファイルパス >
+# python pdf2text.py < ディレクトリパス > < -a or -l >
+# python pdf2text.py -f
+# python pdf2text.py --help
+# のいずれかで実行してください。
+# -a オプションは、指定したディレクトリパス内に存在する全てのPDFファイルをテキストファイルに変換します。
+# -l オプションは、指定したディレクトリパス内のファイルを表示します。
+# -f オプションは、まずカレントディレクトリのフォルダとPDFファイルを表示します。
+# 変換したいPDFファイルが違う階層にある場合、フォルダ名を入力し、一つずつ階層を移動します。
+# 変換したPDFファイルが見つかれば、PDFファイル名を入力するか、何も入力せずにエンターキーを押してください。
+# 何も入力しなかった場合、確認が行われます。
+# yを入力した場合は、ディレクトリ内の全てのPDFファイルがテキストファイルに変換されます。
+# nを入力した場合は、もう一度入力フェーズに移ります。誤ってエンターキーを押した場合などに使用してください。
+# --help オプションは、pdf2textの簡単な説明が表示されます。
+
+
+
+
 import os
 import sys
 import re
 import pandas as pd
 
+# pip install tika
+# Apache TikaのPython用モジュール
+# PDFをテキストに変換する
 from tika import parser
 
 
+# 存在しないオプションを指定した場合のエラー
+class NoSuchOption(Exception):
+    pass
+
+# 拡張子がテキストでない場合のエラー
+class FileExtensionError(Exception):
+    pass
+
+
+# PDFをテキストに変換する関数
 def pdf2text(pdf_file):
+    
+    # PDFのファイルパスを入れると勝手にパースしてくれる
     parsed = parser.from_file(pdf_file)
     save_path = re.sub(r'\.pdf', '.txt', pdf_file)
+    
+    # parsedは一行の文字列となっているため、
+    # 一度テキストファイルに出力する
     with open(save_path, 'w') as f:
         f.write(parsed["content"])
 
+    # 保存したテキストファイルを再度読み込む
     with open(save_path, encoding = 'utf-8-sig') as f:
+        # データフレームで処理を行うためリストに変換
         read_text = list(f)
+    
+    # 一度改行コード除去する必要があるか不明（笑）
     text_df = pd.DataFrame(read_text)
     text_df.replace('\n', '', regex = True, inplace = True)
     #text_df.replace(' ', '', regex = True, inplace = True)
     text_df.replace(' $', '', regex = True, inplace = True)
+    
+    # 欠損値や空白の要素は除去
     text_df = text_df[text_df != '']
     text_df = text_df[text_df != ' ']
-
     text_df.dropna(inplace = True)
+    
+    # テキストファイルとして保存するために
+    # 改行コードで連結して再び文字列へ変換
     text_list = text_df[0].tolist()
     text_data = '\n'.join(text_list)
+    
     with open(save_path, 'w') as f:
         f.write(text_data)
 
@@ -142,6 +188,7 @@ def main():
                         file_paths = [file_path + '/' + input()]
 
                 else:
+                    # 正しいオプションが選択されなかった時にエラーを出力
                     raise NoSuchOption('Selected option is incorrect. Please select --help option and read usage.')
 
             else:
@@ -151,6 +198,7 @@ def main():
                     file_path = re.sub('/' + os.path.basename(file_path), '', file_path)
 
                 else:
+                    # 指定されたPDFファイルが存在しなかった時にエラーを出力
                     raise FileExtensionError('File extension must be text.')
 
         if not '--help' in sys.argv:
