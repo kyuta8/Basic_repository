@@ -110,8 +110,8 @@ def text2excel(text_file, file_path):
     start_keyword4 = r'^・.*|^▪.*|^･.*'
     com_start_keyword4 = re.compile(start_keyword4)
 
-    # 1 や１ など文の始まりを表すキーワード
-    start_keyword5 = r'^[0-9] .*|^[０-９] .*'
+    # 1や１など文の始まりを表すキーワード
+    start_keyword5 = r'^[0-9].*|^[０-９].*|^[0-9] .*|^[０-９] .*'
     com_start_keyword5 = re.compile(start_keyword5)
 
     # 注意事項を表すキーワード
@@ -119,6 +119,7 @@ def text2excel(text_file, file_path):
     com_attract_keyword = re.compile(attract_keyword)
 
     # 。を含むが文の終わりでないパターン
+    # 現在使っていないパターン
     continue_keyword = r'.*という。\).*|.*。\).*|.*。\）.*'
     com_continue_keyword = re.compile(continue_keyword)
     
@@ -172,7 +173,7 @@ def text2excel(text_file, file_path):
             next5 = re.match(com_start_keyword3, rev_text_data[i + 1])
             next6 = re.match(com_start_keyword4, rev_text_data[i + 1])
 
-        # 表を示そうとしているかどうかの判定
+        # これから表を示そうとしているかどうかの判定
         if result_table_keyword:
 
             # 表というワードを含んでいるが、文が終わっていない場合はflagを1,文が終わっていたらflagを2
@@ -272,7 +273,7 @@ def text2excel(text_file, file_path):
                             final_text_data.append(S)
                             S = ''
                             
-                        S += re.sub(r'[0-9]*\.|[0-9]*-[0-9]*|-[0-9]*|[０-９]*\.|[０-９]*-[０-９]*|-[０-９]*|^[0-9]|^[０-９]', '', r)
+                        S += re.sub(r'[0-9]*\.|[0-9]*-[0-9]*|-[0-9]*|[０-９]*\.|[０-９]*-[０-９]*|-[０-９]*', '', r)
 
                         if next2 or next3 or next5 or next6:
                             final_text_data.append(S)
@@ -344,6 +345,8 @@ def text2excel(text_file, file_path):
                                     
                                     elif f_i == len(F) - 1:
                                         S = ''
+                                        if flag == 1:
+                                            flag = 2
                                         break
 
                                     if _f[0] == ')':
@@ -373,8 +376,13 @@ def text2excel(text_file, file_path):
                             final_text_data.append(S)
                             S = ''
 
-                    if flag == 1:
-                        flag = 2
+            else:
+
+                if flag == 2:
+                    final_text_data.append(r)
+
+                else:
+                    S += r
 
             continue
 
@@ -465,7 +473,7 @@ def text2excel(text_file, file_path):
                         final_text_data.append(S)
                         S = ''
                         
-                    S += re.sub(r'[0-9]*\.|[0-9]*-[0-9]*|-[0-9]*|[０-９]*\.|[０-９]*-[０-９]*|-[０-９]*|^[0-9]|^[０-９]', '', r)
+                    S += re.sub(r'[0-9]*\.|[0-9]*-[0-9]*|-[0-9]*|[０-９]*\.|[０-９]*-[０-９]*|-[０-９]*', '', r)
 
                     if next2 or next3 or next5 or next6:
                         final_text_data.append(S)
@@ -537,6 +545,8 @@ def text2excel(text_file, file_path):
                                 
                                 elif f_i == len(F) - 1:
                                     S = ''
+                                    if flag == 1:
+                                        flag = 2
                                     break
 
                                 if _f[0] == ')':
@@ -565,9 +575,6 @@ def text2excel(text_file, file_path):
                         S += re.sub('。', '', r)
                         final_text_data.append(S)
                         S = ''
-
-                if flag == 1:
-                    flag = 2
 
         else:
             if flag == 2:
@@ -607,27 +614,37 @@ def main():
             print()
 
         elif '-f' in sys.argv:
+            # カレントディレクトリの表示
             print('\nCurrent directory: {}'.format(os.getcwd()))
+            
+            # カレントディレクトリに含まれるフォルダとファイルの表示
             print('Directories or Files: \n')
+            # カレントディレクトリのディレクトリ構造を取得
             files = os.listdir(os.getcwd())
+            # テキストファイルとフォルダの取得
             k_words = re.compile(r'^.*\.txt$')
             ext_files = [f for f in files if re.match(k_words, f) or os.path.isdir(os.path.join(os.getcwd(), f))]
             ext_files = sorted(ext_files)
             pprint.pprint(ext_files)
+            
+            # フォルダやファイルの入力
             print('\nPlease input path:')
             file_path = input()
 
+            # 相対パスや絶対パスを指定している場合はパス
             if './' == file_path[0:2] or '/Users/' == file_path[0:7]:
                 pass
             
             else:
-
+                
+                # フォルダ名のみの場合、相対パスに変換
                 if '/' == file_path[0]:
                     file_path = './' + file_path[1:]
                 
                 else:
                     file_path = './' + file_path
 
+            # 変換したいファイルやファイル群が決定するまで入力を行う
             while True:
                 print('\nCurrent directory: {}'.format(file_path))
                 print('Directories or Files: \n')
@@ -641,8 +658,10 @@ def main():
 
                 confirm = ''
 
+                # 何も入力されなかった場合
                 if len(path) == 0:
 
+                    # ファイル群一式変換したい場合はy、再入力を行う場合はn
                     while True:
                         print('Finish to input path (y/n):')
                         confirm = input()
@@ -651,7 +670,7 @@ def main():
                             break
 
                         else:
-                            print('Input y or n')
+                            print('Please input y or n.')
                     
                     if 'y' == confirm:
 
@@ -665,10 +684,13 @@ def main():
                         pass
 
                 elif '..' == path:
+                    # ..を入力された場合は一つ階層を戻す
                     file_path = re.sub('/' + os.path.basename(file_path), '', file_path)
                 
                 else:
-
+                    
+                    # ファイル名が入力された場合は、存在するファイルか確認し
+                    # 存在すれば入力を終了し、なければ再入力を行う
                     if os.path.exists(os.path.join(file_path, path)):
                         file_path = os.path.join(file_path, path)
 
@@ -678,7 +700,7 @@ def main():
                             break
                     
                     else:
-                        print('Input correct path')
+                        print('Incorrect path!!!')
 
         else:
             file_path = sys.argv[1]
@@ -688,13 +710,13 @@ def main():
 
                 if option in _options:
 
-                    if option == _options[0]:
+                    if option == _options[0]: # -a オプション
                         files = os.listdir(file_path)
                         k_words = re.compile(r'^.*\.txt$')
                         file_paths = [file_path + '/' + f for f in files if re.match(k_words, f)]
                         pprint.pprint(file_paths)
 
-                    elif option == _options[1]:
+                    elif option == _options[1]: # -l オプション
                         print()
                         files = os.listdir(file_path)
                         k_words = re.compile(r'^.*\.txt$')
@@ -703,6 +725,7 @@ def main():
                         file_paths = [file_path + '/' + input()]
 
                 else:
+                    # 存在しないオプションを入力された場合にエラー出力
                     raise NoSuchOption('Selected option is incorrect. Please select --help option and read usage.')
 
             else:
@@ -712,6 +735,7 @@ def main():
                     file_path = re.sub('/' + os.path.basename(file_path), '', file_path)
 
                 else:
+                    # 拡張子が違う場合にエラーを出力
                     raise FileExtensionError('File extension must be text.')
 
         if not '--help' in sys.argv:
