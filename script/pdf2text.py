@@ -21,6 +21,7 @@ import os
 import sys
 import re
 import pandas as pd
+import pprint
 
 # pip install tika
 # Apache TikaのPython用モジュール
@@ -102,16 +103,7 @@ def main():
             print('\nPlease input path:')
             file_path = input()
 
-            if './' == file_path[0:2] or '/Users/' == file_path[0:7]:
-                pass
-            
-            else:
-
-                if '/' == file_path[0]:
-                    file_path = './' + file_path[1:]
-                
-                else:
-                    file_path = './' + file_path
+            file_path = os.path.join(os.getcwd(), file_path)
 
             while True:
                 print('\nCurrent directory: {}'.format(file_path))
@@ -150,7 +142,13 @@ def main():
                         pass
 
                 elif '..' == path:
-                    file_path = re.sub('/' + os.path.basename(file_path), '', file_path)
+                    
+                    if os.path.normpath(os.path.join(file_path, path)) == '/Users':
+                        pass
+                    
+                    else:
+                        file_path = os.path.join(file_path, path)
+                        file_path = os.path.normpath(file_path)
                 
                 else:
 
