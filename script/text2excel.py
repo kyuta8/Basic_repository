@@ -40,11 +40,13 @@ class NoSuchFile(Exception):
 # テキストファイルをExcelファイルに変換するための関数
 def text2excel(text_file, file_path):
     print('Loading...\n   =>> {}'.format(text_file))
+    
 
     # パスの存在確認
     if os.path.exists(text_file):
         # 存在すれば拡張子をテキストからExcelに変換
         excel_file = re.sub(r'\.txt', '.xlsx', text_file)
+        ##pass
 
     else:
         # なければエラーを出力
@@ -208,27 +210,20 @@ def text2excel(text_file, file_path):
             
             if result_end_keyword1:
                 loc = r.count('。')
-
                 if loc == 1:
-
                     if result_end_keyword2:
                         final_text_data.append(S)
                         S = ''
-
                     else:
                         F = S.split('。')
                         final_text_data.append(F[0])
                         final_text_data.append(F[1])
                         S = ''
-
                 elif loc > 1:
                     F = S.split('。')
-
                     if result_end_keyword2:
-
                         for f_i in range(len(F)):
                             _f = F[f_i]
-
                             if f_i == 0:
                                 S_tmp = _f
                                 
@@ -236,32 +231,25 @@ def text2excel(text_file, file_path):
                                 final_text_data.append(S_tmp)
                                 S = ''
                                 break
-
                             if _f[0] == ')':
                                 S_tmp += _f
                             
                             else:
                                 final_text_data.append(S_tmp)
                                 S_tmp = _f
-
                     else:
-
                         for f_i in range(len(F)):
                             _f = F[f_i]
-
                             if f_i == 0:
                                 S_tmp = _f
-
                             if _f[0] == ')':
                                 S_tmp += _f
                             
                             else:
                                 final_text_data.append(S_tmp)
                                 S_tmp = _f
-
                         final_text_data.append(S_tmp)
                         S = ''
-
             else:
                 final_text_data.append(S)
                 S = ''
@@ -283,7 +271,6 @@ def text2excel(text_file, file_path):
     if not os.path.exists(file_path + '/trace'):
         os.mkdir(file_path + '/trace')
         print('Create directory \'trace\': path -> {}'.format(file_path + '/trace'))
-
     TRACE = pd.DataFrame(trace_order, columns = ['next_sentence'])
     TRACE.to_excel(file_path + '/trace/trace_' + os.path.basename(excel_file), index = None, encoding = 'utf_8_sig')
     '''
@@ -291,9 +278,30 @@ def text2excel(text_file, file_path):
     NFR = pd.DataFrame(final_text_data, columns = ['text'])
     NFR = NFR.replace(' ', '', regex = True)
     NFR = NFR[NFR['text'] != '']
-    NFR.to_excel(file_path + '/excel_dataset/' + os.path.basename(excel_file), index = None, encoding = 'utf_8_sig')
-    print('Save file converted to excel \'{}\':'.format(os.path.basename(excel_file)))
-    print('   PATH =>> {}'.format(file_path + '/excel_dataset' + os.path.basename(excel_file)))
+
+    # 仕様書件名のインデックス取得
+    index_NFR = NFR[NFR['text'] == '調達件名'].index
+    # 件名が記述されている場合とされていない場合の処理分岐
+    if len(index_NFR) == 1: # 件名が記述されている場合
+        index_NFR = index_NFR[0] + 1
+    
+    elif len(index_NFR) == 0: # 件名が記述されていない場合
+        index_NFR = 0
+    
+    else: # 件名が複数記述されている場合
+        index_NFR = index_NFR[1] + 1
+
+    title_name = NFR['text'][index_NFR] + '.xlsx'
+
+    #NFR.to_excel(file_path + '/excel_dataset/' + os.path.basename(excel_file), index = None, encoding = 'utf_8_sig')
+    #print('Save file converted to excel \'{}\':'.format(os.path.basename(excel_file)))
+    #print('   PATH =>> {}'.format(file_path + '/excel_dataset' + os.path.basename(excel_file)))
+
+    print('Rename: {} =>> {}'.format(excel_file, title_name))
+
+    NFR.to_excel(file_path + '/excel_dataset/' + title_name, index = None, encoding = 'utf_8_sig')
+    print('Save file converted to excel \'{}\':'.format(title_name))
+    print('   PATH =>> {}'.format(file_path + '/excel_dataset/' + title_name))
 
 
 
@@ -449,6 +457,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
 
