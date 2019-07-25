@@ -116,7 +116,7 @@ def text2excel(text_file, file_path):
     com_start_keyword4 = re.compile(start_keyword4)
 
     # 1や１など文の始まりを表すキーワード
-    start_keyword5 = r'^[0-9] |^[０-９] '
+    start_keyword5 = r'^第[0-9]*章.*|^第[０-９]*章.*|^第[0-9]*節.*|^第[０-９]*節.*' # r'^[0-9] .*|^[０-９] .*|^第[0-9]*章.*|^第[０-９]*章.*|^第[0-9]*節.*|^第[０-９]*節.*'
     com_start_keyword5 = re.compile(start_keyword5)
 
     # ①など文の始まりを表すキーワード
@@ -189,7 +189,7 @@ def text2excel(text_file, file_path):
             R = re.sub(r'^・|^▪|^･', '', r)
 
         elif result_start_keyword5:         
-            R = re.sub(r'[0-9]* |[０-９]* ', '', r)
+            R = re.sub(r'[0-9]* |[０-９]* |第[0-9]*章|第[０-９]*章|第[0-9]*節|第[０-９]*節', '', r)
 
         elif result_start_keyword6:
             R = re.sub(r'[①-⑨]', '', r)
@@ -280,7 +280,7 @@ def text2excel(text_file, file_path):
     NFR = NFR[NFR['text'] != '']
 
     # 仕様書件名のインデックス取得
-    index_NFR = NFR[NFR['text'] == '調達件名'].index
+    index_NFR = NFR[NFR['text'].str.contains('調達件名')].index
     # 件名が記述されている場合とされていない場合の処理分岐
     if len(index_NFR) == 1: # 件名が記述されている場合
         index_NFR = index_NFR[0] + 1
