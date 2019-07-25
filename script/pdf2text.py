@@ -12,13 +12,14 @@
 # 何も入力しなかった場合、確認が行われます。
 # yを入力した場合は、ディレクトリ内の全てのPDFファイルがテキストファイルに変換されます。
 # nを入力した場合は、もう一度入力フェーズに移ります。誤ってエンターキーを押した場合などに使用してください。
-# --help オプションは、pdf2textの簡単な説明が表示されます。
+# --help オプションは、pdf2text.pyの簡単な説明が表示されます。
 
 
 
 
 import os
 import sys
+import traceback
 import re
 import pandas as pd
 import pprint
@@ -59,7 +60,7 @@ def pdf2text(pdf_file):
     text_df = pd.DataFrame(read_text)
     text_df.replace('\n', '', regex = True, inplace = True)
     #text_df.replace(' ', '', regex = True, inplace = True)
-    text_df.replace(' $', '', regex = True, inplace = True)
+    #text_df.replace(' $', '', regex = True, inplace = True)
     
     # 欠損値や空白の要素は除去
     text_df = text_df[text_df != '']
@@ -73,6 +74,9 @@ def pdf2text(pdf_file):
     
     with open(save_path, 'w') as f:
         f.write(text_data)
+
+    print('Save file converted to text \'{}\':'.format(os.path.basename(save_path)))
+    print('   PATH =>> {}'.format(save_path))
 
 
 # 実行ファイルのオプション
@@ -103,6 +107,7 @@ def main():
             print('\nPlease input path:')
             file_path = input()
 
+            # パス結合
             file_path = os.path.join(os.getcwd(), file_path)
 
             while True:
@@ -142,13 +147,10 @@ def main():
                         pass
 
                 elif '..' == path:
-                    
-                    if os.path.normpath(os.path.join(file_path, path)) == '/Users':
-                        pass
-                    
-                    else:
-                        file_path = os.path.join(file_path, path)
-                        file_path = os.path.normpath(file_path)
+                    # ..を入力された場合は一つ階層を戻す
+                    # ただしUsersの階層には戻れないようにしておく
+                    file_path = os.path.join(file_path, path)
+                    file_path = os.path.normpath(file_path)
                 
                 else:
 
@@ -200,8 +202,13 @@ def main():
                     raise FileExtensionError('File extension must be text.')
 
         if not '--help' in sys.argv:
-            for pdf_file in file_paths:
-                pdf2text(pdf_file)
+            for i, pdf_file in enumerate(file_paths):
+                dir_path, base_name = os.path.split(pdf_file)
+                rename_base_name = str(i) + '.pdf'
+                rename_pdf_file = os.path.join(dir_path, rename_base_name)
+                os.rename(pdf_file, rename_pdf_file)
+                print('Rename: {} =>> {}'.format(base_name, rename_base_name))
+                pdf2text(rename_pdf_file)
 
     except:
         traceback.print_exc()
