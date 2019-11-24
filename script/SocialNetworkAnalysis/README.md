@@ -9,6 +9,8 @@ files = ['AnalysisData/2003_1-4/200301.paj']
 print_net(files)
 `
 
+![ネットワーク例１](script/SocialNetworkAnalysis/.picture/net1.png)
+
 ### 開発者のみ，またはバグIDのみのネットワークを出力（1-modeネットワーク）
 開発者のみのネットワークを出力したいときは，以下のように実行してください．
 
@@ -24,6 +26,8 @@ files = ['AnalysisData/2003_1-4/200301.paj']
 print_net(files, target=['bug'])
 `
 
+![ネットワーク例２](script/SocialNetworkAnalysis/.picture/net2.png)
+
 ### 開発者，またはバグIDのネットワークを時系列に分析
 開発者，またはバグIDのネットワークを時系列に分析したい場合は，以下のように実行してください．
 
@@ -31,6 +35,7 @@ print_net(files, target=['bug'])
 files = ['AnalysisData/2003_1-4/200301.paj', 'AnalysisData/2003_1-4/200301.paj']
 print_net(files, target=['dev'], sequence=True)
 `
+![ネットワーク例３](script/SocialNetworkAnalysis/.picture/net3.png)
 
 ### ネットワークの出力に関係するパラメータ一覧（ print_net() ）
 
