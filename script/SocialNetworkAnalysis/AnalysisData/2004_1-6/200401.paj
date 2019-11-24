@@ -1,0 +1,273 @@
+*Network net
+*Vertices 84 48
+1 "martin.t.kutschker@blackbox.net"
+2 "slive@apache.org"
+3 "wrowe@apache.org"
+4 "jim@apache.org"
+5 "madhusudan_mathihalli@hp.com"
+6 "towerofpower@operamail.com"
+7 "jon+apache-bugzilla@unequivocal.co.uk"
+8 "dchee@uci.edu"
+9 "yaktgz8k02@sneakemail.com"
+10 "nd@perlig.de"
+11 "info@orangexl.com"
+12 "dmxhin602@sneakemail.com"
+13 "rj3jh2b02@sneakemail.com"
+14 "jwoolley@apache.org"
+15 "erich.prchal@siemens.at"
+16 "eider@bol.com.br"
+17 "jpr5+apache@darkridge.com"
+18 "trawick@apache.org"
+19 "lolo32@altavista.fr"
+20 "rbb@apache.org"
+21 "jorton@redhat.com"
+22 "chrisd@pearsoncmg.com"
+23 "david@madole.net"
+24 "cedric.gavage@unixtech.be"
+25 "cramer@webkist.com"
+26 "jeremy.brown@rbc.com"
+27 "pointman@geekteck.com"
+28 "rd@ro-do.com"
+29 "erik@codefaktor.de"
+30 "glenn@apache.org"
+31 "jsp@pkc.com"
+32 "LReinstein@helpsoft.cz"
+33 "bugs@timj.co.uk"
+34 "nagoya@regs.nebcorp.com"
+35 "Robert.Siemer@gmx.de"
+36 "tim@robbins.dropbear.id.au"
+37 "svd@altlinux.ru"
+38 "h.kipp@eurowings.com"
+39 "zilla@kayari.org"
+40 "rob@bigdis.com"
+41 "mads@apache.org"
+42 "chris_lin@infoworld.com"
+43 "cd@wavecon.de"
+44 "tjlahton@mit.jyu.fi"
+45 "bash99@163.com"
+46 "eddie@omegaware.com"
+47 "chip@force-elite.com"
+48 "minfrin@apache.org"
+49 "8122"
+50 "8493"
+51 "9011"
+52 "9488"
+53 "11475"
+54 "13389"
+55 "14076"
+56 "14453"
+57 "14648"
+58 "15114"
+59 "15571"
+60 "16795"
+61 "19325"
+62 "20617"
+63 "20619"
+64 "20656"
+65 "20852"
+66 "21443"
+67 "21814"
+68 "22104"
+69 "24643"
+70 "24821"
+71 "25036"
+72 "25520"
+73 "25635"
+74 "25867"
+75 "25875"
+76 "26002"
+77 "26079"
+78 "26359"
+79 "26597"
+80 "26767"
+81 "26948"
+82 "30118"
+83 "31128"
+84 "32561"
+*Edges
+1 49
+2 49
+3 49
+4 49
+5 49
+6 49
+7 50
+3 50
+8 50
+9 50
+10 50
+11 50
+12 50
+13 50
+14 51
+2 51
+15 51
+16 51
+17 51
+18 51
+2 52
+19 52
+3 52
+14 52
+20 52
+21 52
+22 53
+18 53
+10 53
+21 54
+23 55
+21 55
+24 56
+10 56
+25 57
+18 57
+26 57
+10 57
+25 58
+18 58
+26 58
+10 58
+2 59
+21 59
+18 59
+2 60
+27 60
+28 60
+29 60
+30 61
+18 61
+31 62
+18 62
+3 62
+31 63
+32 63
+18 63
+3 63
+31 64
+18 64
+3 64
+21 65
+33 66
+34 66
+21 66
+29 66
+35 67
+10 67
+10 68
+36 68
+18 68
+21 68
+18 69
+21 69
+37 69
+18 70
+38 70
+39 71
+10 71
+18 72
+10 73
+40 74
+41 74
+29 74
+10 75
+10 76
+10 77
+42 78
+10 78
+10 79
+43 79
+10 80
+10 81
+44 82
+45 82
+10 82
+46 83
+47 83
+48 83
+10 84
+*Partition net
+*Vertices 84
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2

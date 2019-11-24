@@ -1,0 +1,315 @@
+*Network net
+*Vertices 104 63
+1 "ch@lathspell.de"
+2 "josmhinkle@netscape.net"
+3 "tk@westend.com"
+4 "mjd-apache-bugzilla+@plover.com"
+5 "laurent.dami@justice.ge.ch"
+6 "nd@perlig.de"
+7 "cramer@webkist.com"
+8 "trawick@apache.org"
+9 "dmitri@netilla.com"
+10 "jorton@redhat.com"
+11 "byron.guernsey@ge.com"
+12 "d.tonhofer@m-plify.com"
+13 "kris.verbeeck@advalvas.be"
+14 "jerenkrantz@apache.org"
+15 "jfclere@gmail.com"
+16 "nick@cpanel.net"
+17 "nospam@uadm.com"
+18 "john@server3.wox.org"
+19 "jwoolley@apache.org"
+20 "inhaber@147099.vserver.de"
+21 "chatmaster@charter.net"
+22 "cheewai_yeung@yahoo.com"
+23 "cnoack@informatik.tu-cottbus.de"
+24 "mads@apache.org"
+25 "serge@kilio.fr"
+26 "eef.vanes@atosorigin.com"
+27 "jr-apachebugs@quo.to"
+28 "rvm1974@raketnet.nl"
+29 "kahn@deadbbs.com"
+30 "ajp-apache@aripollak.com"
+31 "eseidel@apple.com"
+32 "jim@apache.org"
+33 "slive@apache.org"
+34 "amit_athavale@lycos.com"
+35 "erik@codefaktor.de"
+36 "softspt@gchq.gsi.gov.uk"
+37 "nick@schoko.org"
+38 "eddie@omegaware.com"
+39 "minfrin@sharp.fm"
+40 "amorrow@nouveausystems.com"
+41 "towerofpower@operamail.com"
+42 "jessh@ptc.com"
+43 "kirill@1314.ru"
+44 "wrowe@apache.org"
+45 "pterjan@linuxfr.org"
+46 "laotzu@pobox.com"
+47 "chip@force-elite.com"
+48 "leumas@solv.com"
+49 "olsenk@iomega.com"
+50 "atlunde@panix.com"
+51 "ken.avery@hp.com"
+52 "jeff.potter@hp.com"
+53 "geoff@geoffthorpe.net"
+54 "haegar@sdinet.de"
+55 "eider@bol.com.br"
+56 "jah@progress.com"
+57 "daniela@cpqd.com.br"
+58 "allizgubehcapa@davidgreenaway.com"
+59 "duerst@w3.org"
+60 "aleimbacher@tetrade.ch"
+61 "dave@cs.curtin.edu.au"
+62 "rstubbe@sit.nl"
+63 "kess@kess-net.de"
+64 "10678"
+65 "15112"
+66 "20183"
+67 "21160"
+68 "21546"
+69 "21737"
+70 "21779"
+71 "21944"
+72 "22134"
+73 "22481"
+74 "24800"
+75 "24922"
+76 "26390"
+77 "26552"
+78 "27322"
+79 "27379"
+80 "27748"
+81 "27751"
+82 "27862"
+83 "27985"
+84 "28063"
+85 "28218"
+86 "28250"
+87 "28287"
+88 "28529"
+89 "28665"
+90 "28888"
+91 "29106"
+92 "29318"
+93 "29403"
+94 "29409"
+95 "29503"
+96 "29517"
+97 "29518"
+98 "29577"
+99 "29678"
+100 "29696"
+101 "29927"
+102 "30186"
+103 "30656"
+104 "30723"
+*Edges
+1 64
+2 64
+3 64
+4 64
+5 64
+6 64
+7 65
+8 65
+9 65
+6 65
+10 66
+11 66
+12 67
+13 67
+10 67
+14 68
+15 68
+16 69
+17 69
+18 69
+19 69
+20 69
+21 69
+22 69
+23 69
+24 69
+25 69
+26 69
+27 69
+28 69
+29 69
+30 69
+8 69
+31 69
+32 69
+10 70
+33 70
+34 70
+35 70
+36 71
+10 71
+37 71
+38 72
+39 72
+40 73
+41 73
+39 74
+42 74
+43 75
+44 75
+45 75
+39 75
+8 75
+39 76
+8 77
+46 77
+10 77
+47 78
+8 79
+39 79
+48 80
+6 80
+49 80
+39 80
+50 80
+51 81
+52 81
+53 81
+10 81
+8 82
+6 82
+6 83
+54 83
+8 84
+55 84
+6 85
+56 86
+39 86
+6 87
+6 88
+33 88
+10 89
+8 90
+57 90
+6 91
+10 92
+58 92
+6 93
+6 94
+8 95
+59 96
+33 96
+33 97
+60 98
+6 99
+8 100
+6 101
+61 101
+62 102
+63 103
+10 103
+8 104
+*Partition net
+*Vertices 104
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2

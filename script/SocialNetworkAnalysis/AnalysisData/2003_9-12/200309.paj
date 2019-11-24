@@ -1,0 +1,185 @@
+*Network net
+*Vertices 61 35
+1 "dpejesh@yahoo.com"
+2 "wrowe@apache.org"
+3 "noisefactor@netscape.net"
+4 "nd@perlig.de"
+5 "volz@net-sieve.com"
+6 "coar@apache.org"
+7 "slive@apache.org"
+8 "towerofpower@operamail.com"
+9 "olivier.duffour@i-carre.net"
+10 "sami.tikka@f-secure.com"
+11 "khurrams@sympatico.ca"
+12 "apache@sedivy.com"
+13 "l.courtin@cadwin.com"
+14 "manniwood@planet-save.com"
+15 "jwoolley@apache.org"
+16 "jorton@redhat.com"
+17 "lendl@nic.at"
+18 "ofudd@speed-test.net"
+19 "erik@codefaktor.de"
+20 "dmh@dmh.org.uk"
+21 "trawick@apache.org"
+22 "apache@neil.fraser.name"
+23 "oswald@apachefriends.org"
+24 "st@kino-fahrplan.de"
+25 "brandon@mail.voyager.com"
+26 "michael.minichino@parago.com"
+27 "chrisn@capitalstream.com"
+28 "stas@apache.org"
+29 "mark@tweakt.net"
+30 "rederpj@remulak.net"
+31 "admin@darkmaxou.ftphost.net"
+32 "millenix@zemos.net"
+33 "ruben@newneon.com"
+34 "robert@profundis.se"
+35 "helgi.g@simnet.is"
+36 "9587"
+37 "14639"
+38 "14976"
+39 "16393"
+40 "16661"
+41 "17093"
+42 "18339"
+43 "19048"
+44 "20558"
+45 "20944"
+46 "21495"
+47 "21726"
+48 "21955"
+49 "22203"
+50 "22259"
+51 "22348"
+52 "22791"
+53 "22910"
+54 "23065"
+55 "23130"
+56 "23665"
+57 "23713"
+58 "23724"
+59 "23752"
+60 "23836"
+61 "24192"
+*Edges
+1 36
+2 36
+3 36
+4 36
+5 37
+2 37
+6 37
+7 38
+2 39
+8 39
+9 39
+10 39
+11 39
+12 39
+13 39
+4 39
+14 40
+15 40
+4 41
+16 42
+17 42
+4 43
+18 43
+7 43
+19 44
+20 44
+21 45
+22 45
+21 46
+23 46
+4 47
+24 47
+7 47
+25 48
+26 48
+27 48
+4 48
+4 49
+28 50
+7 51
+4 52
+29 53
+4 53
+21 54
+30 55
+4 56
+31 56
+32 57
+15 57
+21 58
+19 58
+4 59
+33 59
+34 59
+19 59
+21 60
+4 61
+35 61
+*Partition net
+*Vertices 61
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2

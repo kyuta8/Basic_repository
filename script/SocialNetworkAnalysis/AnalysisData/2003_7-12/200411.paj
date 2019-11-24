@@ -1,0 +1,234 @@
+*Network net
+*Vertices 73 37
+1 "jorton@redhat.com"
+2 "jessh@ptc.com"
+3 "minfrin@sharp.fm"
+4 "minfrin@apache.org"
+5 "bnicholes@apache.org"
+6 "geoff@apache.org"
+7 "chip@force-elite.com"
+8 "clarck3000@163.com"
+9 "grossniklaus@inf.ethz.ch"
+10 "dge@softec.st"
+11 "jah@progress.com"
+12 "ast@domdv.de"
+13 "slive@apache.org"
+14 "bugs.apache@starbase12.cjb.net"
+15 "jerenkrantz@apache.org"
+16 "rbowen@apache.org"
+17 "eflash@gmx.net"
+18 "rodc@ravenetcomputers.com"
+19 "nick@webthing.com"
+20 "bugsan666@hotmail.com"
+21 "bb@bernd-becker.de"
+22 "tjlahton@mit.jyu.fi"
+23 "bash99@163.com"
+24 "nd@perlig.de"
+25 "rici@ricilake.net"
+26 "igor@fedulov.com"
+27 "ruediger.pluem@vodafone.com"
+28 "bjorn@exoweb.net"
+29 "vrb@novell.com"
+30 "Ulf.Harnhammar.9485@student.uu.se"
+31 "eddie@omegaware.com"
+32 "gbadine@csub.edu"
+33 "mjc@apache.org"
+34 "jrepenning@collab.net"
+35 "Hartmut.Keil@adnovum.ch"
+36 "rpuls@kcore.de"
+37 "gtbaclaus@earthlink.net"
+38 "24030"
+39 "24801"
+40 "25460"
+41 "25672"
+42 "27189"
+43 "27271"
+44 "27369"
+45 "27370"
+46 "28573"
+47 "28575"
+48 "28673"
+49 "29216"
+50 "29567"
+51 "30118"
+52 "30132"
+53 "30278"
+54 "30341"
+55 "30419"
+56 "30782"
+57 "30920"
+58 "31036"
+59 "31083"
+60 "31128"
+61 "31152"
+62 "31315"
+63 "31384"
+64 "31385"
+65 "31431"
+66 "31472"
+67 "31505"
+68 "31848"
+69 "31875"
+70 "31898"
+71 "31911"
+72 "32340"
+73 "32561"
+*Edges
+1 38
+2 39
+3 39
+1 39
+4 39
+5 39
+6 40
+7 40
+8 41
+7 41
+1 42
+9 43
+10 43
+3 43
+4 43
+11 43
+12 44
+13 44
+7 44
+12 45
+14 45
+7 45
+15 45
+16 46
+17 47
+7 47
+18 48
+19 48
+20 48
+21 48
+1 48
+4 49
+4 50
+5 50
+22 51
+23 51
+24 51
+25 52
+7 53
+26 53
+27 53
+15 53
+4 53
+28 54
+15 54
+27 55
+15 55
+29 56
+5 56
+4 56
+1 57
+30 58
+24 58
+1 58
+4 58
+1 59
+31 60
+7 60
+4 60
+1 61
+13 61
+16 61
+32 62
+1 62
+33 62
+1 63
+27 64
+15 64
+4 65
+34 66
+1 66
+1 67
+35 67
+1 68
+36 68
+19 69
+11 70
+5 70
+24 71
+1 71
+7 72
+37 72
+24 73
+*Partition net
+*Vertices 73
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2

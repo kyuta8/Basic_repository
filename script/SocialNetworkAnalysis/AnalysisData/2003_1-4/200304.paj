@@ -1,0 +1,974 @@
+*Network net
+*Vertices 306 143
+1 "siegfried.delwiche@sbs.be"
+2 "jerenkrantz@apache.org"
+3 "slive@apache.org"
+4 "brian.bothwell@wisdomtools.com"
+5 "minfrin@sharp.fm"
+6 "dauhee@yahoo.com"
+7 "jwoolley@apache.org"
+8 "com@foobbs.org"
+9 "seb.bacon@jamkit.com"
+10 "huw.jones@globalcrossing.com"
+11 "laxbugzilla@amar.com"
+12 "patrickthun@yahoo.com.sg"
+13 "wrowe@apache.org"
+14 "yuriy.ryabikov@yessoftware.com"
+15 "trawick@apache.org"
+16 "bugzilla@zipfly.de"
+17 "andrew@tellme.com"
+18 "Anthony_Thomas_J@cat.com"
+19 "bo@kase.se"
+20 "stoddard@apache.org"
+21 "colmmacc@redbrick.dcu.ie"
+22 "brianp@apache.org"
+23 "dennis.kelly@gmail.com"
+24 "gus.heck@olin.edu"
+25 "sam@netcity.co.uk"
+26 "bugzilla@areallycool.com"
+27 "kspinka@style.net"
+28 "nd@perlig.de"
+29 "mike@epicworks.com"
+30 "gunnjo@voicenet.com"
+31 "foobar@web.de"
+32 "rbb@apache.org"
+33 "justdave@mozilla.com"
+34 "nizzt@zerospace.org"
+35 "ellisteer_box8003@sitepen.com"
+36 "benoit.tanguy@solucom.fr"
+37 "oliver@watershed.co.uk"
+38 "carenas@chasqui.lared.net.pe"
+39 "rederpj@apache.org"
+40 "jerrybaker@attbi.com"
+41 "bpettit@yahoo.com"
+42 "fgenolini@hotmail.com"
+43 "sleone@etnoteam.it"
+44 "haegar@sdinet.de"
+45 "neil@mpfreescene.com"
+46 "rea@lklnd.usf.edu"
+47 "rtoub@eudoramail.com"
+48 "jeff_melnick@securecomputing.com"
+49 "l_faillie@yahoo.com"
+50 "bruno@wolff.to"
+51 "paulmcferrin@worldnet.att.net"
+52 "tsoome@muhv.pri.ee"
+53 "ianh@apache.org"
+54 "cbartels@ucsd.edu"
+55 "infoza@vcable.net"
+56 "apachebugs@louisiana.edu"
+57 "paul.terry@gmx.net"
+58 "jim@apache.org"
+59 "Thomas.Calrke@tellmi.demon.co.uk"
+60 "jira.novak@gecapital.com"
+61 "mavricknz@yahoo.com"
+62 "noackjr@compgeek.com"
+63 "campbill@attbi.com"
+64 "tapublic@rochester.rr.com"
+65 "gsalas@impacto.cl"
+66 "cv@corbach.de"
+67 "nutso@cpan.org"
+68 "herabwww@mail.desy.de"
+69 "dpejesh@yahoo.com"
+70 "info@orangexl.com"
+71 "psychosos@gmx.at"
+72 "javier@vrweb.cl"
+73 "madhusudan_mathihalli@hp.com"
+74 "creitzel@rcn.com"
+75 "aaron.duncan@centrelink.gov.au"
+76 "rederpj@remulak.net"
+77 "christofer.akersten@home.se"
+78 "lutz.petersen@gmx.de"
+79 "Relics71s@netscape.net"
+80 "hb@websale-ag.de"
+81 "jwf@snet.net"
+82 "frix@expertron.co.za"
+83 "erik@codefaktor.de"
+84 "jc@mega-bucks.co.jp"
+85 "bodewig@apache.org"
+86 "amund.elstad@ergo.no"
+87 "Michael.Dean@detir.qld.gov.au"
+88 "scooter@gene.com"
+89 "dennisl@apache.org"
+90 "stric@ing.umu.se"
+91 "slipszi@yunord.net"
+92 "spoon@nexdot.net"
+93 "rik.arpino@rtch.net"
+94 "10@email.si"
+95 "saxe@acm.org"
+96 "frank@sane.com"
+97 "Laurent.Bonnaud@inpg.fr"
+98 "ralf.hildebrandt@charite.de"
+99 "jrd@cc.usu.edu"
+100 "Joseph.Senulis@dnr.state.wi.us"
+101 "masaharu@mutsuyoshi.net"
+102 "ville.skytta@iki.fi"
+103 "dario.franceschi.k@nordea.se"
+104 "ivelin@apache.org"
+105 "dcook@cookware.com"
+106 "juan.rivera@citrix.com"
+107 "sergeyli@pisem.net"
+108 "kfranken@decisionmark.com"
+109 "apache-bugs@wotevah.com"
+110 "coad@measurement-factory.com"
+111 "tcastelle@generali.fr"
+112 "ballou@crab.mv.com"
+113 "paul.d.rowlands@delphiauto.com"
+114 "axel@pearbough.net"
+115 "jstrehlau@aspecta.com"
+116 "andrew.calverley@dcc.govt.nz"
+117 "koreth-apache@midwinter.com"
+118 "karl@freefriends.org"
+119 "sk@sethwklein.net"
+120 "tom@izb.net"
+121 "lonewolf@greyskydesigns.com"
+122 "zofa@wyer.org"
+123 "rjalex2001@libero.it"
+124 "dd@cron.ru"
+125 "vimages@well.com"
+126 "goweb@o2.co.uk"
+127 "drew@damnimp.com"
+128 "apche_bug@spininhetweb.nl"
+129 "agapon@telcordia.com"
+130 "ck@cksoft.de"
+131 "bzeeb@zabbadoz.net"
+132 "trh411@earthlink.net"
+133 "PeterMayne@ap.spherion.com"
+134 "gregames@apache.org"
+135 "jjolly@mindless.com"
+136 "bas23@pacbell.net"
+137 "jorton@redhat.com"
+138 "svd@altlinux.ru"
+139 "scottb@bxwa.com"
+140 "sami.tikka@f-secure.com"
+141 "kess@kess-net.de"
+142 "ben@algroup.co.uk"
+143 "thom@planetarytramp.net"
+144 "7195"
+145 "7492"
+146 "7572"
+147 "7617"
+148 "7810"
+149 "7840"
+150 "8009"
+151 "8014"
+152 "8117"
+153 "8161"
+154 "8176"
+155 "8179"
+156 "8223"
+157 "8226"
+158 "8241"
+159 "8472"
+160 "8544"
+161 "8730"
+162 "8869"
+163 "8889"
+164 "8996"
+165 "9214"
+166 "9223"
+167 "9299"
+168 "9365"
+169 "9457"
+170 "9497"
+171 "9534"
+172 "9541"
+173 "9647"
+174 "9689"
+175 "9770"
+176 "9787"
+177 "9789"
+178 "9790"
+179 "9858"
+180 "9878"
+181 "9889"
+182 "10074"
+183 "10076"
+184 "10128"
+185 "10186"
+186 "10190"
+187 "10216"
+188 "10240"
+189 "10324"
+190 "10422"
+191 "10430"
+192 "10460"
+193 "10573"
+194 "10644"
+195 "10745"
+196 "10762"
+197 "10819"
+198 "10880"
+199 "10946"
+200 "10961"
+201 "11034"
+202 "11038"
+203 "11178"
+204 "11310"
+205 "11484"
+206 "11673"
+207 "11793"
+208 "11800"
+209 "11954"
+210 "11983"
+211 "12072"
+212 "12296"
+213 "12320"
+214 "12329"
+215 "12353"
+216 "12386"
+217 "12483"
+218 "12596"
+219 "12705"
+220 "12757"
+221 "12877"
+222 "12901"
+223 "12902"
+224 "12910"
+225 "12911"
+226 "13204"
+227 "13211"
+228 "13351"
+229 "13356"
+230 "13404"
+231 "13427"
+232 "13609"
+233 "13799"
+234 "13868"
+235 "13914"
+236 "13945"
+237 "13991"
+238 "14098"
+239 "14235"
+240 "14256"
+241 "14321"
+242 "14364"
+243 "14376"
+244 "14385"
+245 "14560"
+246 "14600"
+247 "14629"
+248 "14704"
+249 "14717"
+250 "14861"
+251 "15001"
+252 "15111"
+253 "15113"
+254 "15330"
+255 "15380"
+256 "15423"
+257 "15491"
+258 "15592"
+259 "15610"
+260 "15616"
+261 "15627"
+262 "15679"
+263 "15761"
+264 "15786"
+265 "15920"
+266 "15981"
+267 "16046"
+268 "16134"
+269 "16261"
+270 "16275"
+271 "16282"
+272 "16288"
+273 "16313"
+274 "16333"
+275 "16452"
+276 "16498"
+277 "16533"
+278 "16739"
+279 "16813"
+280 "16908"
+281 "17108"
+282 "17135"
+283 "17206"
+284 "17706"
+285 "17797"
+286 "17864"
+287 "18025"
+288 "18170"
+289 "18337"
+290 "18424"
+291 "18443"
+292 "18452"
+293 "18481"
+294 "18518"
+295 "18584"
+296 "18623"
+297 "18649"
+298 "18913"
+299 "19023"
+300 "19175"
+301 "19177"
+302 "19512"
+303 "19611"
+304 "19626"
+305 "20166"
+306 "20362"
+*Edges
+1 144
+2 144
+3 144
+4 144
+5 144
+6 144
+7 144
+8 144
+9 144
+10 144
+11 144
+12 144
+13 144
+3 145
+14 145
+13 145
+15 145
+16 145
+4 146
+5 146
+17 147
+18 147
+19 147
+15 147
+13 147
+20 147
+21 148
+2 148
+22 148
+23 148
+3 148
+2 149
+3 150
+24 150
+13 150
+3 151
+25 151
+13 151
+26 151
+27 151
+28 151
+29 152
+7 152
+3 152
+30 152
+31 153
+7 153
+32 153
+13 155
+33 155
+13 156
+3 156
+34 156
+2 156
+32 157
+35 158
+36 158
+13 158
+3 159
+37 159
+13 159
+2 159
+38 160
+39 160
+13 161
+40 161
+41 161
+42 161
+15 162
+28 163
+3 164
+20 164
+43 164
+44 164
+45 164
+2 164
+13 165
+13 166
+46 167
+3 167
+32 167
+5 168
+47 168
+48 168
+49 169
+15 169
+3 169
+13 169
+5 170
+44 171
+50 171
+7 171
+3 171
+13 172
+51 172
+13 173
+15 174
+15 175
+3 175
+32 176
+52 177
+53 177
+13 178
+28 178
+7 179
+32 180
+54 180
+55 181
+15 182
+56 182
+3 183
+15 184
+57 184
+3 184
+58 185
+13 186
+59 186
+3 186
+60 187
+13 187
+61 188
+15 189
+32 190
+7 190
+62 190
+63 190
+28 190
+15 191
+13 192
+64 192
+3 193
+65 193
+66 194
+15 194
+53 194
+3 194
+13 195
+7 196
+13 197
+7 198
+67 198
+28 198
+68 199
+69 199
+13 199
+28 200
+15 201
+3 201
+70 201
+71 202
+72 203
+15 203
+73 204
+74 204
+13 204
+75 205
+3 205
+15 206
+3 206
+13 207
+76 207
+66 207
+15 207
+13 208
+58 208
+77 209
+13 209
+78 210
+79 210
+3 210
+80 210
+15 210
+13 210
+15 211
+81 212
+5 212
+2 213
+82 214
+83 214
+3 214
+15 215
+3 216
+84 216
+85 216
+13 217
+5 217
+28 218
+86 219
+15 219
+87 220
+88 220
+5 220
+89 221
+3 221
+90 221
+28 221
+15 222
+91 223
+13 223
+92 223
+93 223
+28 223
+13 224
+94 224
+3 224
+95 224
+28 224
+5 225
+15 226
+96 227
+28 227
+3 228
+97 228
+28 228
+15 229
+98 229
+28 229
+28 230
+13 230
+99 231
+5 231
+15 232
+100 232
+76 233
+101 234
+102 235
+3 235
+13 235
+15 235
+103 236
+5 236
+104 237
+13 237
+105 237
+5 238
+106 238
+107 239
+5 239
+15 240
+15 241
+108 241
+7 241
+76 242
+109 243
+13 243
+110 243
+5 243
+76 244
+111 244
+112 245
+13 245
+13 246
+3 247
+28 247
+113 248
+28 248
+83 249
+111 250
+13 250
+15 250
+28 251
+2 252
+28 252
+111 253
+76 253
+13 254
+114 254
+15 254
+115 255
+15 255
+116 255
+73 255
+2 256
+117 256
+15 256
+15 257
+7 258
+118 258
+2 258
+28 259
+83 260
+3 261
+119 262
+15 262
+2 262
+15 263
+120 263
+121 263
+13 264
+118 264
+2 264
+122 264
+123 265
+13 266
+15 267
+124 267
+2 267
+124 268
+2 268
+5 269
+13 270
+3 271
+83 271
+28 271
+125 272
+13 272
+126 272
+28 272
+3 272
+7 273
+127 273
+111 274
+2 275
+128 276
+3 276
+7 277
+49 278
+15 278
+2 279
+129 280
+2 280
+15 281
+28 282
+130 283
+131 283
+13 283
+132 284
+28 284
+28 285
+73 286
+15 287
+28 287
+133 288
+134 288
+3 289
+135 289
+136 290
+3 291
+83 292
+13 293
+137 294
+138 294
+28 295
+13 295
+28 296
+15 297
+139 298
+140 299
+5 299
+28 300
+141 302
+142 302
+28 302
+143 303
+28 304
+13 305
+7 306
+*Partition net
+*Vertices 306
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2

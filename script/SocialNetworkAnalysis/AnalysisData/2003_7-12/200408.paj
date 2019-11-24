@@ -1,0 +1,355 @@
+*Network net
+*Vertices 113 65
+1 "trawick@apache.org"
+2 "rbb@apache.org"
+3 "diana.horvitz@exlibris.co.il"
+4 "gfarley@comcab.co.uk"
+5 "slive@apache.org"
+6 "david_clancy@csgsystems.com"
+7 "sulka@sulake.com"
+8 "laurent.goujon@online.fr"
+9 "zulic@roguewave.com"
+10 "zosh@ife.ee.ethz.ch"
+11 "Robert.Dahlem@gmx.net"
+12 "dustin@cs.uchicago.edu"
+13 "andrea@fon.fon.bg.ac.yu"
+14 "jorton@redhat.com"
+15 "admin@optogone.com"
+16 "nd@perlig.de"
+17 "deisner@gmail.com"
+18 "nick@webthing.com"
+19 "eddie@omegaware.com"
+20 "cramer@webkist.com"
+21 "dmitri@netilla.com"
+22 "apache@moresecurity.org"
+23 "ifischer@is24.de"
+24 "chip@force-elite.com"
+25 "jessh@ptc.com"
+26 "psychosos@gmx.at"
+27 "minfrin@sharp.fm"
+28 "hans@vankilsdonk.nl"
+29 "floeff@arcor.de"
+30 "heller@deepsoft.com"
+31 "mads@apache.org"
+32 "thom@planetarytramp.net"
+33 "markus.herzog@pixelpark.com"
+34 "schwoerb@uww.edu"
+35 "MMADKI@Doorways.org"
+36 "eflash@gmx.net"
+37 "lumina@gmx.fr"
+38 "lengerkeh@sixt.de"
+39 "kirill@1314.ru"
+40 "wrowe@apache.org"
+41 "pterjan@linuxfr.org"
+42 "bnicholes@apache.org"
+43 "gregaryh@juno.com"
+44 "geoff@apache.org"
+45 "haegar@sdinet.de"
+46 "eider@bol.com.br"
+47 "hps@intermeta.de"
+48 "dankogai@dan.co.jp"
+49 "duerst@w3.org"
+50 "dave@cs.curtin.edu.au"
+51 "fwai@rsasecurity.com"
+52 "orders@nodivisions.com"
+53 "mail@christian-bieser.net"
+54 "SpamUs@shaw.ca"
+55 "geert@debeerst.be"
+56 "rstubbe@sit.nl"
+57 "ruediger.pluem@vodafone.com"
+58 "bozy@fgm.com.cy"
+59 "sitic@pts.se"
+60 "kess@kess-net.de"
+61 "nslater@gmail.com"
+62 "rici@ricilake.net"
+63 "tyler@nas.net"
+64 "alfred@freebsd.org"
+65 "minfrin@apache.org"
+66 "8867"
+67 "9656"
+68 "15112"
+69 "16812"
+70 "17693"
+71 "18041"
+72 "18156"
+73 "18348"
+74 "18812"
+75 "19304"
+76 "19317"
+77 "19688"
+78 "21459"
+79 "22684"
+80 "23550"
+81 "24432"
+82 "24922"
+83 "25247"
+84 "26462"
+85 "26602"
+86 "27649"
+87 "27758"
+88 "27862"
+89 "27985"
+90 "28063"
+91 "28204"
+92 "28293"
+93 "28491"
+94 "28492"
+95 "28898"
+96 "29313"
+97 "29517"
+98 "29518"
+99 "29927"
+100 "29964"
+101 "30012"
+102 "30186"
+103 "30464"
+104 "30487"
+105 "30585"
+106 "30656"
+107 "30723"
+108 "30732"
+109 "30807"
+110 "30919"
+111 "31237"
+112 "31247"
+113 "31448"
+*Edges
+1 66
+2 66
+3 66
+4 66
+5 66
+6 66
+7 66
+8 66
+9 66
+10 66
+11 66
+12 66
+13 66
+14 66
+15 66
+16 66
+17 66
+18 67
+19 67
+20 68
+1 68
+21 68
+16 68
+22 69
+1 69
+18 69
+23 70
+24 70
+25 71
+26 71
+27 71
+28 72
+5 72
+29 72
+16 72
+30 72
+14 72
+1 73
+14 73
+14 74
+31 74
+25 75
+32 75
+33 75
+1 75
+27 75
+34 75
+18 76
+35 77
+24 77
+18 77
+36 78
+37 79
+1 79
+16 79
+18 79
+38 80
+5 81
+39 82
+40 82
+41 82
+27 82
+1 82
+5 83
+16 83
+16 84
+27 85
+42 85
+43 85
+1 86
+14 86
+5 87
+44 87
+24 87
+1 88
+16 88
+16 89
+45 89
+1 90
+46 90
+24 91
+14 92
+14 93
+16 94
+47 94
+14 95
+48 95
+14 96
+49 97
+5 97
+5 98
+16 99
+50 99
+14 100
+51 100
+24 101
+52 101
+18 101
+53 101
+54 101
+55 101
+56 102
+57 103
+14 103
+1 104
+58 104
+14 105
+59 105
+60 106
+14 106
+1 107
+18 108
+16 108
+61 108
+27 108
+14 109
+62 110
+24 110
+14 111
+14 112
+63 112
+14 113
+64 113
+65 113
+*Partition net
+*Vertices 113
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2

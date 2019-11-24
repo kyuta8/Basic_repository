@@ -1,0 +1,537 @@
+*Network net
+*Vertices 171 84
+1 "brian.bothwell@wisdomtools.com"
+2 "minfrin@sharp.fm"
+3 "slive@apache.org"
+4 "sam@netcity.co.uk"
+5 "wrowe@apache.org"
+6 "bugzilla@areallycool.com"
+7 "kspinka@style.net"
+8 "nd@perlig.de"
+9 "foobar@web.de"
+10 "jwoolley@apache.org"
+11 "rbb@apache.org"
+12 "nizzt@zerospace.org"
+13 "jerenkrantz@apache.org"
+14 "box@uni.de"
+15 "andy@warmcat.com"
+16 "trawick@apache.org"
+17 "dgl-apache@otherwize.co.uk"
+18 "nic@niss.ac.uk"
+19 "valk@mojodo.it"
+20 "stoddard@apache.org"
+21 "sleone@etnoteam.it"
+22 "haegar@sdinet.de"
+23 "neil@mpfreescene.com"
+24 "l_faillie@yahoo.com"
+25 "cbartels@ucsd.edu"
+26 "infoza@vcable.net"
+27 "paul.terry@gmx.net"
+28 "mavricknz@yahoo.com"
+29 "cv@corbach.de"
+30 "ianh@apache.org"
+31 "nutso@cpan.org"
+32 "info@orangexl.com"
+33 "madhusudan_mathihalli@hp.com"
+34 "creitzel@rcn.com"
+35 "roland.betz@dlr.de"
+36 "joe@manyfish.co.uk"
+37 "gstein@lyra.org"
+38 "martin@snowplow.org"
+39 "rederpj@remulak.net"
+40 "jim@apache.org"
+41 "lutz.petersen@gmx.de"
+42 "Relics71s@netscape.net"
+43 "hb@websale-ag.de"
+44 "jc@mega-bucks.co.jp"
+45 "bodewig@apache.org"
+46 "slipszi@yunord.net"
+47 "spoon@nexdot.net"
+48 "rik.arpino@rtch.net"
+49 "Laurent.Bonnaud@inpg.fr"
+50 "Joseph.Senulis@dnr.state.wi.us"
+51 "dario.franceschi.k@nordea.se"
+52 "juan.rivera@citrix.com"
+53 "sergeyli@pisem.net"
+54 "apache-bugs@wotevah.com"
+55 "coad@measurement-factory.com"
+56 "ballou@crab.mv.com"
+57 "julian.reschke@gmx.de"
+58 "tcastelle@generali.fr"
+59 "jstrehlau@aspecta.com"
+60 "andrew.calverley@dcc.govt.nz"
+61 "koreth-apache@midwinter.com"
+62 "tom@izb.net"
+63 "lonewolf@greyskydesigns.com"
+64 "dd@cron.ru"
+65 "erik@codefaktor.de"
+66 "vimages@well.com"
+67 "goweb@o2.co.uk"
+68 "drew@damnimp.com"
+69 "apche_bug@spininhetweb.nl"
+70 "rtsai@netapp.com"
+71 "ck@cksoft.de"
+72 "bzeeb@zabbadoz.net"
+73 "PeterMayne@ap.spherion.com"
+74 "gregames@apache.org"
+75 "jjolly@mindless.com"
+76 "bas23@pacbell.net"
+77 "jorton@redhat.com"
+78 "svd@altlinux.ru"
+79 "scottb@bxwa.com"
+80 "sami.tikka@f-secure.com"
+81 "matthew@davin.ottawa.on.ca"
+82 "kess@kess-net.de"
+83 "ben@algroup.co.uk"
+84 "thom@planetarytramp.net"
+85 "7572"
+86 "8014"
+87 "8161"
+88 "8223"
+89 "8482"
+90 "8889"
+91 "8996"
+92 "9457"
+93 "9878"
+94 "9889"
+95 "10076"
+96 "10128"
+97 "10240"
+98 "10644"
+99 "10880"
+100 "10961"
+101 "11034"
+102 "11310"
+103 "11637"
+104 "11668"
+105 "11793"
+106 "11800"
+107 "11983"
+108 "12320"
+109 "12353"
+110 "12386"
+111 "12706"
+112 "12902"
+113 "12911"
+114 "13204"
+115 "13351"
+116 "13404"
+117 "13609"
+118 "13945"
+119 "14098"
+120 "14235"
+121 "14364"
+122 "14376"
+123 "14560"
+124 "14921"
+125 "15113"
+126 "15380"
+127 "15423"
+128 "15761"
+129 "15981"
+130 "16046"
+131 "16134"
+132 "16261"
+133 "16282"
+134 "16288"
+135 "16313"
+136 "16333"
+137 "16452"
+138 "16498"
+139 "16533"
+140 "16621"
+141 "16739"
+142 "17135"
+143 "17206"
+144 "17797"
+145 "17864"
+146 "17866"
+147 "18025"
+148 "18170"
+149 "18337"
+150 "18424"
+151 "18443"
+152 "18452"
+153 "18481"
+154 "18518"
+155 "18584"
+156 "18623"
+157 "18649"
+158 "18913"
+159 "19023"
+160 "19084"
+161 "19175"
+162 "19177"
+163 "19207"
+164 "19359"
+165 "19512"
+166 "19611"
+167 "19626"
+168 "19913"
+169 "20166"
+170 "20362"
+171 "20763"
+*Edges
+1 85
+2 85
+3 86
+4 86
+5 86
+6 86
+7 86
+8 86
+9 87
+10 87
+11 87
+5 88
+3 88
+12 88
+13 88
+14 89
+15 89
+16 89
+17 89
+18 89
+3 89
+19 89
+10 89
+8 90
+3 91
+20 91
+21 91
+22 91
+23 91
+13 91
+24 92
+16 92
+3 92
+5 92
+11 93
+25 93
+26 94
+3 95
+16 96
+27 96
+3 96
+28 97
+29 98
+16 98
+30 98
+3 98
+10 99
+31 99
+8 99
+8 100
+16 101
+3 101
+32 101
+33 102
+34 102
+5 102
+3 103
+35 103
+36 103
+16 103
+37 103
+38 104
+5 105
+39 105
+29 105
+16 105
+5 106
+40 106
+41 107
+42 107
+3 107
+43 107
+16 107
+5 107
+13 108
+16 109
+3 110
+44 110
+45 110
+5 111
+46 112
+5 112
+47 112
+48 112
+8 112
+2 113
+16 114
+3 115
+49 115
+8 115
+8 116
+5 116
+16 117
+50 117
+51 118
+2 118
+2 119
+52 119
+53 120
+2 120
+39 121
+54 122
+5 122
+55 122
+2 122
+56 123
+5 123
+57 124
+13 124
+58 125
+39 125
+59 126
+16 126
+60 126
+33 126
+13 127
+61 127
+16 127
+16 128
+62 128
+63 128
+5 129
+16 130
+64 130
+13 130
+64 131
+13 131
+2 132
+3 133
+65 133
+8 133
+66 134
+5 134
+67 134
+8 134
+3 134
+10 135
+68 135
+58 136
+13 137
+69 138
+3 138
+10 139
+70 140
+5 140
+8 140
+24 141
+16 141
+8 142
+71 143
+72 143
+5 143
+8 144
+33 145
+40 146
+16 147
+8 147
+73 148
+74 148
+3 149
+75 149
+76 150
+3 151
+65 152
+5 153
+77 154
+78 154
+8 155
+5 155
+8 156
+16 157
+79 158
+80 159
+2 159
+5 160
+16 160
+8 161
+16 163
+81 163
+8 164
+3 164
+82 165
+83 165
+8 165
+84 166
+8 167
+8 168
+5 169
+10 170
+65 171
+*Partition net
+*Vertices 171
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2

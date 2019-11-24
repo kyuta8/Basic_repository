@@ -1,0 +1,428 @@
+*Network net
+*Vertices 136 66
+1 "foobar@web.de"
+2 "jwoolley@apache.org"
+3 "rbb@apache.org"
+4 "wrowe@apache.org"
+5 "slive@apache.org"
+6 "nizzt@zerospace.org"
+7 "jerenkrantz@apache.org"
+8 "box@uni.de"
+9 "andy@warmcat.com"
+10 "trawick@apache.org"
+11 "dgl-apache@otherwize.co.uk"
+12 "nic@niss.ac.uk"
+13 "valk@mojodo.it"
+14 "info@orangexl.com"
+15 "madhusudan_mathihalli@hp.com"
+16 "creitzel@rcn.com"
+17 "roland.betz@dlr.de"
+18 "joe@manyfish.co.uk"
+19 "gstein@lyra.org"
+20 "martin@snowplow.org"
+21 "rederpj@remulak.net"
+22 "cv@corbach.de"
+23 "lutz.petersen@gmx.de"
+24 "Relics71s@netscape.net"
+25 "hb@websale-ag.de"
+26 "minfrin@sharp.fm"
+27 "Laurent.Bonnaud@inpg.fr"
+28 "nd@perlig.de"
+29 "sergeyli@pisem.net"
+30 "apache-bugs@wotevah.com"
+31 "coad@measurement-factory.com"
+32 "bruno@wolff.to"
+33 "koreth-apache@midwinter.com"
+34 "jorton@redhat.com"
+35 "rpluem@apache.org"
+36 "ballou@crab.mv.com"
+37 "julian.reschke@gmx.de"
+38 "jstrehlau@aspecta.com"
+39 "andrew.calverley@dcc.govt.nz"
+40 "vimages@well.com"
+41 "goweb@o2.co.uk"
+42 "mnicel@yahoo.com"
+43 "mnicel@novell.com"
+44 "kris.verbeeck@advalvas.be"
+45 "rtsai@netapp.com"
+46 "giles@xiph.org"
+47 "erik@codefaktor.de"
+48 "dylann@mac.com"
+49 "jim@apache.org"
+50 "scottb@bxwa.com"
+51 "tfan@kronos.com"
+52 "sami.tikka@f-secure.com"
+53 "matthew@davin.ottawa.on.ca"
+54 "kess@kess-net.de"
+55 "ben@algroup.co.uk"
+56 "thom@planetarytramp.net"
+57 "johan.edstrom@sca.com"
+58 "thom@vdb.nl"
+59 "hinsonjr@yahoo.com"
+60 "reaper@fudo.org"
+61 "phil@flare.demon.co.uk"
+62 "martin@v.loewis.de"
+63 "glenn@apache.org"
+64 "kevinmvarley@yahoo.com"
+65 "sragavan@novell.com"
+66 "Robert.Siemer@gmx.de"
+67 "8161"
+68 "8223"
+69 "8482"
+70 "10076"
+71 "11034"
+72 "11310"
+73 "11637"
+74 "11668"
+75 "11793"
+76 "11983"
+77 "12353"
+78 "12706"
+79 "12911"
+80 "13204"
+81 "13351"
+82 "13404"
+83 "14235"
+84 "14376"
+85 "14451"
+86 "14560"
+87 "14921"
+88 "15380"
+89 "15981"
+90 "16261"
+91 "16288"
+92 "16452"
+93 "16520"
+94 "16621"
+95 "16687"
+96 "17135"
+97 "17719"
+98 "17720"
+99 "17864"
+100 "17866"
+101 "18025"
+102 "18443"
+103 "18481"
+104 "18584"
+105 "18913"
+106 "19012"
+107 "19023"
+108 "19084"
+109 "19175"
+110 "19177"
+111 "19207"
+112 "19359"
+113 "19512"
+114 "19611"
+115 "19626"
+116 "19753"
+117 "19913"
+118 "20166"
+119 "20195"
+120 "20312"
+121 "20334"
+122 "20343"
+123 "20362"
+124 "20384"
+125 "20582"
+126 "20606"
+127 "20662"
+128 "20763"
+129 "20958"
+130 "21085"
+131 "21095"
+132 "21392"
+133 "21539"
+134 "21743"
+135 "21830"
+136 "21964"
+*Edges
+1 67
+2 67
+3 67
+4 68
+5 68
+6 68
+7 68
+8 69
+9 69
+10 69
+11 69
+12 69
+5 69
+13 69
+2 69
+5 70
+10 71
+5 71
+14 71
+15 72
+16 72
+4 72
+5 73
+17 73
+18 73
+10 73
+19 73
+20 74
+4 75
+21 75
+22 75
+10 75
+23 76
+24 76
+5 76
+25 76
+10 76
+4 76
+10 77
+4 78
+26 79
+10 80
+5 81
+27 81
+28 81
+28 82
+4 82
+29 83
+26 83
+30 84
+4 84
+31 84
+26 84
+32 85
+10 85
+28 85
+33 85
+34 85
+35 85
+36 86
+4 86
+37 87
+7 87
+38 88
+10 88
+39 88
+15 88
+4 89
+26 90
+40 91
+4 91
+41 91
+28 91
+5 91
+7 92
+31 93
+42 93
+21 93
+43 93
+44 93
+45 94
+4 94
+28 94
+28 95
+28 96
+46 97
+47 97
+48 98
+46 98
+47 98
+15 99
+49 100
+10 101
+28 101
+5 102
+4 103
+28 104
+4 104
+50 105
+5 106
+10 106
+51 106
+28 106
+52 107
+26 107
+4 108
+10 108
+28 109
+10 111
+53 111
+28 112
+5 112
+54 113
+55 113
+28 113
+56 114
+28 115
+28 116
+28 117
+4 118
+28 119
+57 120
+10 120
+28 121
+10 122
+58 122
+2 123
+5 124
+59 125
+34 125
+10 126
+60 127
+61 127
+5 127
+47 128
+62 129
+10 129
+63 130
+28 130
+64 131
+28 131
+56 131
+2 131
+65 132
+21 132
+47 133
+28 134
+28 135
+66 135
+5 135
+47 136
+*Partition net
+*Vertices 136
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2

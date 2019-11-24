@@ -1,0 +1,307 @@
+*Network net
+*Vertices 95 46
+1 "slive@apache.org"
+2 "narliss@netegrity.com"
+3 "jorton@redhat.com"
+4 "subbarao@computer.org"
+5 "l_faillie@yahoo.com"
+6 "jim@apache.org"
+7 "rowe@farpointer.net"
+8 "trawick@apache.org"
+9 "jerenkrantz@apache.org"
+10 "striker@apache.org"
+11 "dwkoehler@comcast.net"
+12 "axelseaa@amadmax.com"
+13 "towerofpower@operamail.com"
+14 "nd@perlig.de"
+15 "maxime@sochi.net.ru"
+16 "volker@wiesel-network.de"
+17 "glenn@apache.org"
+18 "jwoolley@apache.org"
+19 "Hartmut.Keil@adnovum.ch"
+20 "apache@ttsg.com"
+21 "mads@apache.org"
+22 "erik@codefaktor.de"
+23 "wrowe@apache.org"
+24 "distler@golem.ph.utexas.edu"
+25 "nugget@slacker.com"
+26 "kaushal_j@hotmail.com"
+27 "A.Schild@neatech.ch"
+28 "heller@deepsoft.com"
+29 "dblake@hp.com"
+30 "ken.avery@hp.com"
+31 "madhum@hp.com"
+32 "mjc@apache.org"
+33 "k19@konig.lv"
+34 "ahuxley@gmx.net"
+35 "ast@domdv.de"
+36 "chip@force-elite.com"
+37 "leumas@solv.com"
+38 "Rolf.Sponsel@kstr.lth.se"
+39 "hendrik.schmieder@jedox.com"
+40 "bojan@rexursive.com"
+41 "dkap+Apache@haven.org"
+42 "eflash@gmx.net"
+43 "eddie@omegaware.com"
+44 "wesleygoku@hotmail.com"
+45 "ville.skytta@iki.fi"
+46 "kess@kess-net.de"
+47 "7882"
+48 "12074"
+49 "12631"
+50 "13411"
+51 "14550"
+52 "15057"
+53 "16953"
+54 "17217"
+55 "17564"
+56 "17928"
+57 "21222"
+58 "21370"
+59 "23667"
+60 "23850"
+61 "23956"
+62 "24029"
+63 "24329"
+64 "24469"
+65 "24555"
+66 "24614"
+67 "25477"
+68 "25870"
+69 "26562"
+70 "27106"
+71 "27313"
+72 "27319"
+73 "27424"
+74 "27428"
+75 "27501"
+76 "27543"
+77 "27719"
+78 "27793"
+79 "27811"
+80 "27886"
+81 "27896"
+82 "27927"
+83 "28047"
+84 "28116"
+85 "28125"
+86 "28459"
+87 "28475"
+88 "28521"
+89 "28523"
+90 "28570"
+91 "28572"
+92 "28732"
+93 "29034"
+94 "29148"
+95 "29161"
+*Edges
+1 47
+2 47
+3 47
+4 47
+5 48
+6 48
+1 49
+7 49
+8 49
+1 50
+8 51
+3 51
+3 52
+9 53
+10 53
+11 53
+3 53
+8 54
+12 54
+13 54
+3 54
+14 55
+15 55
+1 55
+16 56
+3 56
+17 57
+18 57
+14 57
+8 57
+19 58
+3 58
+18 59
+1 59
+1 60
+20 60
+3 60
+8 61
+3 61
+21 62
+13 63
+22 63
+23 63
+24 64
+14 64
+8 64
+25 64
+14 65
+26 65
+23 65
+8 65
+1 66
+27 66
+1 67
+28 67
+22 68
+1 68
+29 69
+30 69
+18 69
+3 69
+31 69
+14 69
+3 70
+32 70
+33 70
+3 71
+34 71
+35 72
+14 72
+1 72
+36 73
+14 73
+3 74
+1 75
+21 76
+37 76
+8 77
+8 78
+1 79
+8 80
+38 80
+39 81
+14 81
+40 82
+18 82
+8 82
+14 83
+14 84
+1 84
+41 84
+3 84
+35 85
+14 85
+14 86
+38 86
+8 87
+1 88
+14 89
+42 89
+43 89
+14 90
+44 90
+1 90
+42 91
+14 91
+23 91
+45 92
+8 92
+3 93
+3 94
+46 95
+*Partition net
+*Vertices 95
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
+2
