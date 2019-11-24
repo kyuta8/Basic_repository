@@ -35,6 +35,7 @@ print_net(files, target=['bug'])
 files = ['AnalysisData/2003_1-4/200301.paj', 'AnalysisData/2003_1-4/200301.paj']
 print_net(files, target=['dev'], sequence=True)
 `
+
 ![ネットワーク例３](script/SocialNetworkAnalysis/.picture/net3.png)
 
 ### ネットワークの出力に関係するパラメータ一覧（ print_net() ）
