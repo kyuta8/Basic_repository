@@ -35,6 +35,7 @@
             dev：開発者のネットワーク
             bug：バグIDのネットワーク
     figure_x：プロットの横幅
+    figure_y：プロットの縦幅
     anotation：ノードのラベルを表示（default：False）
     node_alpha：ノードの濃さ（0 ~ 1）
     edge_alpha：エッジの濃さ（0 ~ 1）
