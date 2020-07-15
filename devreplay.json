@@ -1,0 +1,61 @@
+[
+    {
+        "condition": [
+            "^\"?index.+"
+        ],
+        "consequent": [
+        ],
+        "regex": true,
+        "author": "GroupB",
+        "description": "index列は不要です．"
+    },
+    {
+        "condition": [
+            "^\n"
+        ],
+        "consequent": [
+        ],
+        "regex": true,
+        "author": "GroupB",
+        "description": "空行は削除してください．"
+    },
+    {
+        "condition": [
+            "^(?!\").+?(?!\"),(?!\").+?(?!\"),(?!\").+?(?!\"),(?!\").+(?!\"),(?!\").+?(?!\"),(?!\").+?(?!\"),(?!\").+?(?!\")"
+        ],
+        "consequent": [
+        ],
+        "regex": true,
+        "author": "GroupB",
+        "description": "データの区切りごとにダブルクォートで囲んでください．"
+    },
+    {
+        "condition": [
+            "^(?!(\".+?\"),(\".+?\"),(\".+\"),(\".+?\"),(\".+?\"),(\".+?\"),(\".+?\"))$"
+        ],
+        "consequent": [
+        ],
+        "regex": true,
+        "author": "GroupB",
+        "description": "データを整形する必要があります．目標データと照らし合わせてみてください．" 
+    },
+    {
+        "condition": [
+            " "
+        ],
+        "consequent": [
+        ],
+        "regex": true,
+        "author": "GroupB",
+        "description": "空白はアンダーバー(_)に置換してください．"
+    },
+    {
+        "condition": [
+            "Movie"
+        ],
+        "consequent": [
+        ],
+        "author": "GroupB",
+        "description": "typeがMovieのデータは削除してください．"
+    }
+]
